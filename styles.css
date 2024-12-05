@@ -1,0 +1,40 @@
+:root {
+  --color-brand--1: #ffb545;
+  --color-brand--2: #00c46a;
+
+  --color-dark--1: #2d3439;
+  --color-dark--2: #424242;
+  --color-light--1: #aaa;
+  --color-light--2: #ececec;
+  --color-light--3: rgb(214, 222, 224);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  width: 900px;
+  background-color: var(--color-dark--2);
+  color: var(--color-light--2);
+  font-family: "Roboto", "Manrope", Arial, "Helvetica Neue", Helvetica,
+    sans-serif;
+  height: 80vh;
+}
+
+img {
+  width: 350px;
+}
+
+a {
+  color: var(--color-light--2);
+  text-decoration: none;
+  font-size: 2rem;
+}
