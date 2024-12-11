@@ -12,12 +12,11 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 html {
   font-size: 62.5%;
-  box-sizing: border-box;
 }
 
 body {
@@ -27,14 +26,18 @@ body {
   font-family: "Roboto", "Manrope", Arial, "Helvetica Neue", Helvetica,
     sans-serif;
   height: 80vh;
+  padding: 5rem;
 }
 
 img {
   width: 350px;
+  display: flex;
+  justify-content: center;
 }
 
 a {
   color: var(--color-light--2);
   text-decoration: none;
   font-size: 2rem;
+  
 }
